@@ -1,0 +1,16 @@
+.main {
+  background-color: #282c34;;
+  padding: 20px;
+  margin: 2px;
+}
+
+.div {
+  height: auto;
+
+  font-size: small;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  background-color:#282c34;;
+  color: aliceblue;
+}
