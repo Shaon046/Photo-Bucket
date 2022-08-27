@@ -2,3 +2,21 @@
     height: 1080px;
     width: 1920px;
 }
+
+
+/* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
+
+@media screen and (max-width: 600px) {
+    .imgVwe{
+        width: 400px;
+        height: 100%;
+        margin-bottom: 100%;
+    }
+    
+}

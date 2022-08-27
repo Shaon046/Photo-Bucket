@@ -79,8 +79,8 @@
 
   .contain img{
     height: 200px;
-    width: 200px;
-    margin: 0px;
+    width: 150px;
+    margin: 0.7rem;
     padding: 5px;
   
   }
