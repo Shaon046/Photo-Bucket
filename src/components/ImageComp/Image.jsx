@@ -14,7 +14,7 @@ const Image = (props) => {
   };
 
   return (
-    <div>
+    <div className={classes.imgMain}>
       <img 
         className={classes.imgDiv }
         src={props.src }

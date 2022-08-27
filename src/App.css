@@ -54,3 +54,33 @@
 .contain img:hover{
   background-color: #a7beee;
   animation-fill-mode: forwards;}
+
+
+.container{
+    width: 100%;
+    
+    margin:0 auto  ;
+  }
+
+
+
+
+  
+/* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
+
+@media screen and (max-width: 600px) {
+ 
+  .contain{
+    columns:2;
+    column-gap: auto;
+    width: auto;
+    margin: 2px auto;
+  }
+  
+  
+}

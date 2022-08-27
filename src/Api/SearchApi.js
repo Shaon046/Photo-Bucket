@@ -12,7 +12,7 @@ const SearchImage = (query='') => {       //to prevent auto call of search
       .get(
         `https://api.unsplash.com/search/photos?query=${query}&client_id=lZhCat2FMbOtyilwt8ib_7XJpsjcobow8wTb7gXTHWk`
       )
-      .then((data) => {return setState(data.data.results), console.log(data)})
+      .then((data) => {return setState(data.data.results) })
       .catch((err)=>console.log("error at SearchApi"))
     } }, [query]);
 

@@ -28,7 +28,6 @@ function App() {
   //arrayValue
   const arrValue = searchData.values();
 
-  //console.log(searchData)
   //
   useEffect(() => {
     if (searchData.length === 0) {
@@ -38,8 +37,6 @@ function App() {
       setNoImageFound(false);
     }
   }, [searchData.length]);
-
-  console.log(noImageFound, "abcd");
 
   useEffect(() => {
     if (searchStatus === true && landingPageData.length !== 0) {
@@ -51,10 +48,10 @@ function App() {
     }
   }, [landingPageData.length, searchData, searchStatus, search, arrValue]);
 
-  console.log(searchStatus);
+ 
 
   return (
-    <>
+    <div className="container">
       <div>
         <UserInput
           setSearch={setSearch}
@@ -103,7 +100,7 @@ function App() {
       <div>
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

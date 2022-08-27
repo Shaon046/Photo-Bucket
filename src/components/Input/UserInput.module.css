@@ -3,19 +3,21 @@
   align-items: left;
   height: 35px;
   width: 162px;
+  
 }
 
 .main {
-  width: auto;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
   background-color: #1b1b1b;
-  padding: 14px;
   box-shadow: rgb(49, 37, 37);
   align-items: center;
   justify-content: center;
   text-align: center;
   mix-blend-mode: darken;
 }
- .inp {
+.inp {
   height: 30px;
   width: 250px;
   border-color: 1px #f5deb3;
@@ -55,4 +57,68 @@
   font-style: italic;
   box-shadow: 10px rgb(24, 23, 23);
   cursor: pointer;
+}
+
+
+
+
+
+/* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
+
+@media screen and (max-width: 1024px) {
+  .container {
+   
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
+
+@media screen and (max-width: 600px) {
+ 
+  .main {
+    
+    padding: 0.5rem;
+   text-align:left;
+    mix-blend-mode: darken;
+  }
+ 
+ 
+ 
+ 
+  .img {
+    display: inline-block;
+    margin-right: 100%;
+    align-items: left;
+    height: 35px;
+    width: 162px;
+  }
+
+  
+
+
+
+.inp {
+  display: inline;
+  margin: 1rem;
+  height: 30px;
+  width: 230px;
+
+  border-radius: 80px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+
+.btn {
+  margin: 0;
+display: inline;
+}
+
+
+
+  
 }

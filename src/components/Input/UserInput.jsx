@@ -14,14 +14,14 @@ const UserInput = (props) => {
     props.setSearch(userInput);
     dispatch({ type: "SEARCH" });
     props.resetLoading(true);
-    console.log(userInput);
+   
   };
 
   const onChangeInputHandler = (eve) => {
     setUserInput(eve.target.value);
   };
   return (
-    <>
+    
       <div className={classes.main}>
         <img className={classes.img} src="newlogo.png" alt="LOGO" />
 
@@ -37,7 +37,7 @@ const UserInput = (props) => {
           </button>
         </div>
       </div>
-    </>
+    
   );
 };
 

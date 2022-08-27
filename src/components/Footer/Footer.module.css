@@ -14,3 +14,20 @@
   background-color:#282c34;;
   color: aliceblue;
 }
+
+
+
+  
+/* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
+
+@media screen and (max-width: 600px) {
+ 
+
+  
+}
