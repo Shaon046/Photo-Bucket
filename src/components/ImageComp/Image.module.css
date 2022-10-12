@@ -6,6 +6,10 @@
 /* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
 
 @media screen and (max-width: 1024px) {
+  .imgMain {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 /* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
@@ -13,5 +17,8 @@
 @media screen and (max-width: 600px) {
    
 
-      
+  .imgMain {
+    height: 100%;
+    width: 100%;
+  }
 }

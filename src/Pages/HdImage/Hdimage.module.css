@@ -1,6 +1,6 @@
 .imgVwe{
-    height: 1080px;
-    width: 1920px;
+    height: 100vh;
+    width: 100%;
 }
 
 
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 600px) {
     .imgVwe{
-        width: 400px;
+        width: 100%;
         height: 100%;
         margin-bottom: 100%;
     }
